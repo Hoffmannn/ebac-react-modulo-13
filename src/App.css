@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+}
+
+input, select {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.success {
+  color: rgb(39, 204, 39);
+}
+
+.error {
+  color: rgb(253, 39, 39);
+}
+table, th, td {
+  border: 1px solid;
+  padding: 4px;
+}
+table {
+  border-collapse: collapse;
+   
+}
